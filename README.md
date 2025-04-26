@@ -17,7 +17,7 @@ Após a escolha, os dados completos do usuário são exibidos em uma segunda pá
 - Cada usuário aparece como um botão paginado.
 - Ao clicar em um usuário:
   - O índice do usuário é salvo no `localStorage`.
-  - O navegador redireciona para `valorescolhido.html`.
+  - O navegador redireciona para `usuario.html`.
 - Em `valorescolhido.html`, o app:
   - Lê o índice salvo.
   - Busca novamente o `usuarios.json`.
