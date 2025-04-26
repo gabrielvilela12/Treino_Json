@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "nome": "Lucas",
+      "idade": 25,
+      "cidade": "São Paulo",
+      "habilidades": ["JavaScript", "Python", "HTML"]
+    },
+    {
+      "nome": "Ana",
+      "idade": 30,
+      "cidade": "São Paulo",
+      "habilidades": ["JavaScript", "Python", "HTML"]
+    },
+    {
+      "nome": "Carlos",
+      "idade": 28,
+      "cidade": "São Paulo",
+      "habilidades": ["JavaScript", "Python", "HTML"]
+    },
+    {
+      "nome": "Rodrigo",
+      "idade": 21,
+      "cidade": "São Paulo",
+      "habilidades": ["Python"]
+    },
+    {
+      "nome": "Gabriel",
+      "idade": 22,
+      "cidade": "São Paulo",
+      "habilidades": ["JavaScript", "Python"]
+    }
+  ]
+}
