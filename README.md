@@ -1,4 +1,5 @@
-co# Seleção de Usuário via JSON
+# Seleção de Usuário via JSON
+## link: https://gabrielvilela12.github.io/Treino_Json/
 
 Uma página web simples para selecionar um usuário a partir de uma lista carregada de um arquivo JSON.  
 Após a escolha, os dados completos do usuário são exibidos em uma segunda página.
