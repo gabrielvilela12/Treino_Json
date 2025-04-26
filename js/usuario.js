@@ -18,10 +18,16 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
       } else {
         usuarioDiv.innerHTML = "<p>Usuário não encontrado!</p>";
+        setTimeout(() => {
+          window.location.href = "index.html"; // Redireciona depois de mostrar a mensagem
+        }, 2000); // 2 segundos
       }
     } catch (error) {
-      usuarioDiv.innerHTML = "<p>Erro ao carregar os dados.</p>";
       console.error(error);
+      usuarioDiv.innerHTML = "<p>Erro ao carregar os dados. Voltando para a página inicial...</p>";
+      setTimeout(() => {
+        window.location.href = "index.html"; // Redireciona depois de mostrar o erro
+      }, 2000); // 2 segundos
     }
   }
 
