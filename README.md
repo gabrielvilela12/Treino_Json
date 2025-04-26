@@ -1,4 +1,4 @@
-# Seleção de Usuário via JSON
+co# Seleção de Usuário via JSON
 
 Uma página web simples para selecionar um usuário a partir de uma lista carregada de um arquivo JSON.  
 Após a escolha, os dados completos do usuário são exibidos em uma segunda página.
@@ -18,7 +18,7 @@ Após a escolha, os dados completos do usuário são exibidos em uma segunda pá
 - Ao clicar em um usuário:
   - O índice do usuário é salvo no `localStorage`.
   - O navegador redireciona para `usuario.html`.
-- Em `valorescolhido.html`, o app:
+- Em `usuario.html`, o app:
   - Lê o índice salvo.
   - Busca novamente o `usuarios.json`.
   - Exibe as informações do usuário escolhido.
